@@ -10,8 +10,10 @@
       padding: 40px;
       max-width: 800px;
       margin: auto;
+      background-color: #f5f5f5;
+      color: #333;
     }
-    h1 {
+    h1, h2 {
       color: #007acc;
     }
     a {
@@ -21,6 +23,19 @@
     .info {
       margin: 10px 0;
     }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
+    }
+    img.icon {
+      vertical-align: middle;
+      margin-right: 8px;
+    }
   </style>
 </head>
 <body>
@@ -29,21 +44,23 @@
   <p>Specialization in Artificial Intelligence and IoT</p>
 
   <div class="info">
-    <strong>Email:</strong> <a href="mailto:cou.dhinesh@gmail.com">cou.dhinesh@gmail.com</a>
+    <img class="icon" src="https://img.icons8.com/ios-glyphs/30/000000/new-post.png"/>
+    <a href="mailto:cou.dhinesh@gmail.com">cou.dhinesh@gmail.com</a>
   </div>
   <div class="info">
-    <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/dhinesh-babu-49223b221" target="_blank">dhinesh-babu</a>
+    <img class="icon" src="https://img.icons8.com/ios-filled/24/000000/linkedin.png"/>
+    <a href="https://www.linkedin.com/in/dhinesh-babu-49223b221" target="_blank">dhinesh-babu</a>
   </div>
   <div class="info">
-    <strong>Phone:</strong> +91-7010646886
+    <img class="icon" src="https://img.icons8.com/material-outlined/24/000000/phone--v1.png"/>
+    +91-7010646886
   </div>
 
   <h2>About Me</h2>
-  <p>I’m an Electrical and Electronics Engineering student at NIT Puducherry, with a minor specialization in Artificial Intelligence and IoT. I have a strong grasp of both software and hardware domains, and I’m especially interested in electric vehicles, automation, and smart technologies that drive efficiency. I enjoy building systems that blend electronics with intelligence and bring real-world impact.</p>
-</body>
-</html>
+  <p>
+    I’m an Electrical and Electronics Engineering student at NIT Puducherry, with a minor specialization in Artificial Intelligence and IoT. I have a strong grasp of both software and hardware domains, and I’m especially interested in electric vehicles, automation, and smart technologies that drive efficiency. I enjoy building systems that blend electronics with intelligence and bring real-world impact.
+  </p>
 
-<section id="projects">
   <h2>Projects</h2>
   <ul>
     <li>
@@ -56,28 +73,40 @@
     </li>
     <li>
       <strong>Power Converter for EVs</strong><br>
-      Worked on DC-DC converter design using flyback and buck topology for EV low-voltage networks.
+      DC-DC converter design using flyback and buck topologies for low-voltage EV networks.
+    </li>
+    <li>
+      <strong>Solar PV VI Characteristics Modeling</strong><br>
+      Simulated and plotted VI/PV curves under varying irradiance using MATLAB.
+    </li>
+    <li>
+      <strong>Butterworth Image Filtering</strong><br>
+      Applied low-pass and high-pass filters using MATLAB to enhance image quality.
     </li>
   </ul>
-</section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>
-    <img src="https://img.icons8.com/material-outlined/24/000000/phone--v1.png"/>
-    +91-7010646886
-  </p>
-  <p>
-    <img src="https://img.icons8.com/ios-glyphs/30/000000/new-post.png"/>
-   cou.dhinesh4@gmail.com
-  </p>
-  <p>
-    <a href="https://www.linkedin.com/in/dhinesh-babu-49223b221" target="_blank">
-      <img src="https://img.icons8.com/ios-filled/24/000000/linkedin.png"/> LinkedIn: dhinesh-babu
-    </a>
-  </p>
-</section>
+  <h2>Skills</h2>
+  <ul>
+    <li>Languages: Python, C++, MATLAB</li>
+    <li>Tools: ETAP, Node-RED, Arduino</li>
+    <li>Domains: Embedded Systems, Image Processing, IoT, Power Electronics</li>
+  </ul>
 
-<footer>
-  <p>&copy; 2025 Dhinesh Babu</p>
-</footer>
+  <h2>Certifications</h2>
+  <ul>
+    <li>Internship at Whirlpool India (Electrical Domain)</li>
+    <li>Coursera: Machine Learning with Python</li>
+    <li>NPTEL: Electric Vehicles, Image Processing</li>
+  </ul>
+
+  <h2>Education</h2>
+  <ul>
+    <li><strong>B.Tech in EEE</strong> — NIT Puducherry (2021 - 2025)</li>
+    <li><strong>HSC</strong> — Petit Seminaire Higher Secondary School</li>
+  </ul>
+
+  <footer>
+    <p>&copy; 2025 Dhinesh Babu</p>
+  </footer>
+</body>
+</html>
